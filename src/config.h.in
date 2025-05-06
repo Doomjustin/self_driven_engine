@@ -1,0 +1,20 @@
+#ifndef CPP_TEMPLATE_CONFIG_H
+#define CPP_TEMPLATE_CONFIG_H
+
+namespace cpp_template {
+
+static constexpr auto PROJECT_VERSION = "@PROJECT_VERSION@";
+
+static constexpr int PROJECT_MAJOR = @PROJECT_VERSION_MAJOR@;
+
+static constexpr int PROJECT_MINOR = @PROJECT_VERSION_MINOR@;
+
+static constexpr int PROJECT_PATCH = @PROJECT_VERSION_PATCH@;
+
+static constexpr auto PROJECT_NAME = "@PROJECT_NAME@";
+
+static constexpr auto PROJECT_SOURCE_DIR = "@PROJECT_SOURCE_DIR@";
+
+} // namespace cpp_template
+
+#endif // !CPP_TEMPLATE_CONFIG_H
